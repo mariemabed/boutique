@@ -1,0 +1,12 @@
+
+
+<div class="d-flex flex-wrap" >
+     
+    <div class="w-6/12 sm:w-4/12 px-4" *ngFor="let prod of produits" class="product-item" style="margin-left: 12%;" >
+        <p> {{prod.nom}} </p><img [src]="prod.image" width="150px" (click)="onClick(prod)" alt="..." class="shadow rounded max-w-full h-auto align-middle border-none" ><p>prix : {{prod.prix}} </p>
+        <app-home-product-detail [msg2]="selectProd" *ngIf="selectProd"></app-home-product-detail>
+        <button class="btn btn-primary" *ngIf="prod.description" style="margin-left: 5%;" (click)="onDetail(prod)">Details ></button>
+        
+    </div>
+    
+</div>

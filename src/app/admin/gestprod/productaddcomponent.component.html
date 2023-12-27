@@ -1,0 +1,27 @@
+<div class="bd">
+<h2 class="mar">Formulaire </h2><br>
+<form [formGroup]="productAddForm" (ngSubmit)="onAjouter()">
+        <label>Nom de produit</label>
+        <div class="input-group input-group-dynamic mb-4">
+                <input type="text" class="form-control" formControlName="nameControl" placeholder="Entrer le nom" aria-label="Username" aria-describedby="basic-addon1" >
+        </div>  
+        <label>Prix</label>
+        <div class="input-group input-group-dynamic mb-4">
+                <input type="number" class="form-control" formControlName="prixControl" placeholder="Entrer le prix" aria-label="Username" aria-describedby="basic-addon1" >
+        </div>
+        <label>Image</label>    
+        <input type="file"   formControlName="imageControl" class="shadow rounded max-w-full h-auto align-middle border-none">
+        <label>Description</label>
+        <div class="input-group input-group-dynamic mb-4">
+                <textarea type="text" class="form-control" formControlName="descriptionControl" aria-label="Username" aria-describedby="basic-addon1" ></textarea>
+        </div>
+        <label>Categories</label>
+        <div class="input-group input-group-dynamic mb-4">
+                <input type="text" class="form-control" formControlName="categorieControl" aria-label="Username" aria-describedby="basic-addon1" >
+        </div>
+        <input type="submit" value="Add Product" class="btn btn-primary" (click)="addProducts()" >
+        <!--<button class="btn btn-primary" type="submit" >Ajouter</button>-->
+        <a href="home" style="color: #af4c7d;margin-left: 80%;">Retour</a>    
+</form>
+
+</div>

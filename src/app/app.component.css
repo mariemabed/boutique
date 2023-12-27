@@ -1,0 +1,26 @@
+
+.lol
+{
+    background-color: #c962c7;
+    color:white;
+    text-align: center;
+    margin: 0px;
+    
+}
+.social-media-block {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+    
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between icons as needed */
+    
+  }
+  
+  .social-icons a img {
+    width: 30px; /* Adjust the size of the social media icons as needed */
+  }
+  

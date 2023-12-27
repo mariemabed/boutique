@@ -1,0 +1,53 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style du formulaire */
+form {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px; /* Ajustez la largeur du formulaire  */
+  background-color: rgb(255, 174, 236); 
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style des labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style des champs de saisie */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style du bouton Ajouter */
+button {
+  background-color: #af4c7d;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mar{
+  position: absolute; 
+  top: 20%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color:#af4c7d;
+}
+

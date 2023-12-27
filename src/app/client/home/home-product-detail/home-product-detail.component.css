@@ -1,0 +1,13 @@
+.mariem{
+    display:block;
+    text-align: center;
+    background-color: white;
+    position: absolute; 
+    margin-top:20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 2px solid black ;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 20px;
+}

@@ -1,0 +1,36 @@
+{
+  "produits": [
+    {
+      "id": "1",
+      "nom": "Sac 1",
+      "prix": "300 DT",
+      "categId": "C1",
+      "image": "/assets/prod7.png",
+      "description": "Sacs À Main Marc Jacobs"
+    },
+    {
+      "id": "2",
+      "nom": "Sac 2",
+      "prix": "250 DT",
+      "categId": "C2",
+      "image": "/assets/prod8.png",
+      "description": "Sacs Marc Jacobs roses"
+    },
+    {
+      "id": "3",
+      "nom": "Sac 3",
+      "prix": "500 DT",
+      "categId": "C3",
+      "image": "/assets/prod9.jpg",
+      "description": "Sac à main en toile pour femmes"
+    },
+    {
+      "nameControl": "prod",
+      "prixControl": 200,
+      "descriptionControl": "",
+      "imageControl": "",
+      "categorieControl": "",
+      "id": "GEzlbbt"
+    }
+  ]
+}
